@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "imbue"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{imbue is a pervasive include.}
+    gem.description = %Q{imbue should be used instead of include when you need to include a module in another module that's alrleady been included in existing classes, and have it affect said classes.}
     gem.email = "dev@caiochassot.com"
     gem.homepage = "http://github.com/kch/imbue"
     gem.authors = ["Caio Chassot"]

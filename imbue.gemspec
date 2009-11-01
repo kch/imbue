@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.md",
      "Rakefile",
      "VERSION",
+     "imbue.gemspec",
      "lib/imbue.rb",
      "test/helper.rb",
      "test/test_imbue.rb"
@@ -50,3 +51,4 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<minitest>, [">= 0"])
   end
 end
+
